@@ -1,0 +1,9 @@
+{
+	"name": "adfendtoendgeekcoders",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ad06cf1f-572e-4e92-bc05-98559a247d44",
+		"tenantId": "4d40b69d-9108-433d-95b4-01e4de3630f8"
+	}
+}
