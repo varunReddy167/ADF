@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfendtoendgeekcoders"
+		},
+		"AzureSqlDatabase_source_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=endtoendserver.database.windows.net;Initial Catalog=endtoenddev;User ID=endtoend"
+		},
+		"AzureDataLakeStorage_sink_properties_typeProperties_url": {
+			"value": "https://endtoendgen2sink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage_sink_properties_typeProperties_tenant": {
+			"value": "4d40b69d-9108-433d-95b4-01e4de3630f8"
+		},
+		"AzureDataLakeStorage_sink_properties_typeProperties_servicePrincipalId": {
+			"value": "02bcd83b-41c7-4070-951e-6ca1397ba34c"
+		},
+		"AzureDataLakeStorage_source_properties_typeProperties_url": {
+			"value": "https://endtoendgen2source.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage_source_properties_typeProperties_tenant": {
+			"value": "4d40b69d-9108-433d-95b4-01e4de3630f8"
+		},
+		"AzureDataLakeStorage_source_properties_typeProperties_servicePrincipalId": {
+			"value": "02bcd83b-41c7-4070-951e-6ca1397ba34c"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://endtoendgeekkv.vault.azure.net/"
+		},
+		"RestService_source_properties_typeProperties_url": {
+			"value": "https://airlabs.co/api/v9/airlines"
+		}
+	}
+}
